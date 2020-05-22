@@ -37,18 +37,20 @@ body,html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: magenta;
+  box-shadow: 0 0 1rem magenta;
 }
 
 kbd {
   display: block;
   font-size: 4.5rem;
+  font-family: 'Monoton', cursive;
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: magenta;
 }

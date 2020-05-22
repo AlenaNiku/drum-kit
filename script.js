@@ -22,7 +22,7 @@ keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
 // we add a data attribute to each audio (data-key) and make it equal to the keyCode of that letter (key) => that's how we're able to pick it with querySelector. the specific keyCode is coming from each letters event - e.keyCode, and we're using a template literal with the data attribute to pick the specific audio
 
-// we're changing the class of the key to 'playing' bc we're going to change how it looks with the help of css
+// we're changing the class of the key to 'playing' bc we're going to change how it looks with the help of css, consequently we're removing this class to return the look of the buttons back
 
 // if (!audio) return; by this we're saying if the audio doesn't exist for a key - do nothing (so that nothing happens when we press a key with no associated audio) // stop the function from running all together
 
